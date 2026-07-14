@@ -52,8 +52,15 @@ $("projects-grid").innerHTML = PROJECTS.map(p => `
 // --- ГАЛЕРЕЯ ---
 $("gallery-grid").innerHTML = GALLERY.map(g => `
   <a href="${esc(g.src)}" data-cat="${esc(g.cat)}" class="${g.tall ? "tall" : ""}">
-    <img src="${esc(g.src)}" alt="${esc(g.alt || g.cat)}" loading="lazy">
-  </a>`).join("");
+    <img
+      src="${esc(g.src)}"
+      alt="${esc(g.alt || g.cat)}"
+      loading="lazy"
+      decoding="async"
+      fetchpriority="low"
+    >
+  </a>
+`).join("");
 
 // --- КОНТАКТЫ ---
 $("contacts-list").innerHTML = CONTACTS.map(c => `

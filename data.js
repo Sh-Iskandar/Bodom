@@ -71,7 +71,7 @@ const PROJECTS = [
     material: "Легированная износостойкая сталь",
   },
   {
-    image: "images/real-mech-assembly.jpg",
+    image: "images/real-mech-assembly.webp",
     title: "Запчасти для сельхозтехники",
     text:  "Шестерни, валы, корпуса редукторов и другие узлы для сельхозмашин и автомобилей — наследие производства для ГАЗ.",
     tags:  ["Токарная", "Фрезерная", "Сварка"],
@@ -92,7 +92,7 @@ const PROJECTS = [
     material: "Чугун",
   },
   {
-    image: "images/P2644205.JPG",
+    image: "images/P2644205.webp",
     title: "Чугунная изложница",
     text:  "Для отливки металлических слитков (чушек) из расплавленного металла.",
     tags:  [],
@@ -104,28 +104,25 @@ const PROJECTS = [
 // Просто дописывайте объекты в массив — можно хоть 50, хоть 500.
 // tall: true — карточка займёт 2 ряда по высоте (акцент).
 const GALLERY = [
-  { src: "images/P2644343.JPG", cat: "Литейный цех",         alt: "Литейный цех",       tall: true },
+  { src: "images/P2644343.webp", cat: "Литейный цех",         alt: "Литейный цех",       tall: true },
   { src: "images/real-milling.jpg", cat: "Механический цех", alt: "Механический цех" },
   { src: "images/real-stove.jpg", cat: "Худож. литье",        alt: "Худож. литье" },
-  { src: "images/P2644271.JPG", cat: "Литьё",         alt: "Разливка металла" },
-  { src: "images/22.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/23.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/25.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/26.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/27.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/28.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/29.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/30.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/31.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/32.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/33.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/34.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/35.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/36.jpg", cat: "Продукция",     alt: "Готовые детали" },
-  { src: "images/37.jpg", cat: "Продукция",     alt: "Готовые детали" },
-
-
-
+  { src: "images/P2644271.webp", cat: "Литьё",         alt: "Разливка металла" },
+  { src: "images/22.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/23.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/25.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/26.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/27.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/28.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/29.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/30.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/31.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/32.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/33.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/34.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/35.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/36.webp", cat: "Продукция",     alt: "Готовые детали" },
+  { src: "images/37.webp", cat: "Продукция",     alt: "Готовые детали" },
 ];
 
 // --- КОНТАКТЫ ---
